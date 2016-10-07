@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+body
+    table(border=1)
+        tr
+            th First Name
+            th Last Name
+            th Birth Year
+        - for(let i=0;i<data.length;i++) {
+        tr
+            td=data[i].first
+            td=data[i].last
+            td=data[i].year
+        - }
