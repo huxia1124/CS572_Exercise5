@@ -17,6 +17,7 @@ app.set('view engine', 'jade');
 app.set('trust proxy', true);
 app.enable('case sensitive routing');
 app.disable('x-powered-by');
+app.enable('strict routing');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
